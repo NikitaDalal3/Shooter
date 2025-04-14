@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: World_02
   m_EditorClassIdentifier: 
   previewSprite: {fileID: 21300000, guid: 3d1b94860d7ba4844a3165d230e3b9bb, type: 3}
+  uniqueWorldMusicClip: {fileID: 0}
   worldType: 2
   levels:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 4
         Position: {x: -1.171875, y: 0, z: 12.109375}
@@ -246,8 +246,8 @@ MonoBehaviour:
         Rotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 2
         Position: {x: 0, y: 0, z: -1.953125}
@@ -509,8 +509,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 2
         Position: {x: 1.5625, y: 0, z: 1.171875}
@@ -787,6 +787,7 @@ MonoBehaviour:
         Position: {x: 0, y: 0, z: 3.1875}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     xpAmount: 100
     requiredUpg: 11
     enemiesLevel: 2
@@ -809,7 +810,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 0
         Position: {x: -5.078125, y: 0, z: -4.296875}
@@ -1068,8 +1068,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 1.953125, y: 0, z: -4.296875}
@@ -1319,8 +1319,8 @@ MonoBehaviour:
         Position: {x: -5.515625, y: 0, z: 14.375}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 7.421875, y: 0, z: 1.171875}
@@ -1567,6 +1567,7 @@ MonoBehaviour:
         Position: {x: 0, y: 0, z: 4.234375}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     xpAmount: 100
     requiredUpg: 12
     enemiesLevel: 2
@@ -1585,7 +1586,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 11
         Position: {x: 0, y: 0, z: 7.25}
@@ -1771,8 +1771,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 5.078125, y: 0, z: 3.90625}
@@ -2115,8 +2115,8 @@ MonoBehaviour:
         Position: {x: 0.465625, y: 0, z: 4.309375}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 0
         Position: {x: 7.8125, y: 0, z: -0.390625}
@@ -2338,10 +2338,6 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       - Hash: 1236664496
-        Position: {x: -0.453125, y: 0, z: -2.609375}
-        Rotation: {x: 0, y: 0, z: 0, w: 1}
-        Scale: {x: 1, y: 1, z: 1}
-      - Hash: 1236664496
         Position: {x: -6.765625, y: 0, z: -12.8125}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
@@ -2390,6 +2386,7 @@ MonoBehaviour:
         Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     xpAmount: 120
     requiredUpg: 12
     enemiesLevel: 2
@@ -2408,7 +2405,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -15.625}
-      exitPoint: {x: 0, y: 0, z: 19.53125}
       enemyEntities:
       - EnemyType: 10
         Position: {x: 5.078125, y: 0, z: 8.59375}
@@ -2750,8 +2746,8 @@ MonoBehaviour:
         Rotation: {x: -0, y: 1, z: -0, w: 0.00000032782552}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 0
         Position: {x: 1.953125, y: 0, z: 12.109375}
@@ -3011,8 +3007,8 @@ MonoBehaviour:
         Position: {x: -8.432813, y: 0, z: 14.370313}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 11
         Position: {x: -4.484375, y: 0, z: -1.578125}
@@ -3209,6 +3205,7 @@ MonoBehaviour:
         Position: {x: 6.75, y: 0, z: -2.8968751}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     xpAmount: 100
     requiredUpg: 13
     enemiesLevel: 2
@@ -3223,7 +3220,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: -6.25, y: 0, z: -3.515625}
@@ -3511,8 +3507,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 5.078125, y: 0, z: 6.25}
@@ -3710,8 +3706,8 @@ MonoBehaviour:
         Position: {x: -6.421875, y: 0, z: 14.279688}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 4.6875, y: 0, z: -5.859375}
@@ -3944,6 +3940,7 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     xpAmount: 150
     requiredUpg: 13
     enemiesLevel: 3
@@ -3962,7 +3959,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -15.625}
-      exitPoint: {x: 0, y: 0, z: 19.53125}
       enemyEntities:
       - EnemyType: 0
         Position: {x: -6.25, y: 0, z: -3.125}
@@ -4335,8 +4331,8 @@ MonoBehaviour:
         Position: {x: -2.5171876, y: 0, z: 4.99}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 4
         Position: {x: 7.8125, y: 0, z: 4.6875}
@@ -4602,8 +4598,8 @@ MonoBehaviour:
         Position: {x: -8.145312, y: 0, z: 5.279688}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -15.625}
-      exitPoint: {x: 0, y: 0, z: 19.53125}
       enemyEntities:
       - EnemyType: 2
         Position: {x: -3.90625, y: 0, z: 4.296875}
@@ -4927,6 +4923,7 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     xpAmount: 100
     requiredUpg: 14
     enemiesLevel: 3
@@ -4945,7 +4942,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 10
         Position: {x: 0, y: 0, z: 12.890625}
@@ -5142,8 +5138,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 0
         Position: {x: 0, y: 0, z: -4.6875}
@@ -5387,8 +5383,8 @@ MonoBehaviour:
         Position: {x: 0, y: 0, z: 2.09375}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: -1.5625, y: 0, z: -2.34375}
@@ -5694,6 +5690,7 @@ MonoBehaviour:
         Position: {x: -5.9328127, y: 0, z: -6.753125}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     xpAmount: 110
     requiredUpg: 15
     enemiesLevel: 3
@@ -5712,7 +5709,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: -6.25, y: 0, z: -3.515625}
@@ -6000,8 +5996,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -15.625}
-      exitPoint: {x: 0, y: 0, z: 19.53125}
       enemyEntities:
       - EnemyType: 0
         Position: {x: 5.8890624, y: 0, z: 7.8515625}
@@ -6356,8 +6352,8 @@ MonoBehaviour:
         Position: {x: 4.203125, y: 0, z: 9.548437}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 1
         Position: {x: 7.8125, y: 0, z: -0.390625}
@@ -6623,6 +6619,7 @@ MonoBehaviour:
         Rotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     xpAmount: 110
     requiredUpg: 15
     enemiesLevel: 3
@@ -6637,7 +6634,6 @@ MonoBehaviour:
   - type: 0
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -15.625}
-      exitPoint: {x: 0, y: 0, z: 19.53125}
       enemyEntities:
       - EnemyType: 10
         Position: {x: -6.25, y: 0, z: -3.125}
@@ -6998,8 +6994,8 @@ MonoBehaviour:
         Position: {x: 3.3125, y: 0, z: -2.40625}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 11
         Position: {x: 1.953125, y: 0, z: -4.296875}
@@ -7244,8 +7240,8 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 2
         Position: {x: -5.078125, y: 0, z: -4.296875}
@@ -7505,6 +7501,7 @@ MonoBehaviour:
         Position: {x: -4.96875, y: 0, z: 14.12}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
+      roomCustomObjects: []
     xpAmount: 150
     requiredUpg: 15
     enemiesLevel: 3
@@ -7519,7 +7516,6 @@ MonoBehaviour:
   - type: 1
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
-      exitPoint: {x: 0, y: 0, z: 15.625}
       enemyEntities:
       - EnemyType: 100
         Position: {x: 0, y: 0, z: 4.296875}
@@ -7733,6 +7729,7 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
+      roomCustomObjects: []
     xpAmount: 200
     requiredUpg: 16
     enemiesLevel: 4
@@ -8082,5 +8079,4 @@ MonoBehaviour:
       Scale: {x: 1, y: 1, z: 1}
     spawnPos: {x: 0, y: 0, z: -11.71875}
     exitPointPos: {x: 0, y: 0, z: 15.625}
-  pedestalPrefab: {fileID: 8216573719630268239, guid: 1e70dc176f66adf48bf296751231ea97,
-    type: 3}
+  worldCustomObjects: []
