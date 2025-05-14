@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3790550404803544343}
-  - component: {fileID: -1813370801226643623}
   - component: {fileID: 4990160065956071298}
   - component: {fileID: 6461971647669221444}
+  - component: {fileID: 7434229824438563803}
   m_Layer: 8
   m_Name: prefab_stairs_02
   m_TagString: Untagged
@@ -35,27 +35,6 @@ Transform:
   - {fileID: 3790550405415533140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &-1813370801226643623
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3790550404803544342}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.4751892, y: 4.094086, z: 6.446869}
-  m_Center: {x: -0.028299332, y: -0.55350614, z: 0.17152405}
 --- !u!208 &4990160065956071298
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -66,11 +45,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.25, y: 2, z: 3}
+  m_Extents: {x: 1.25, y: 2, z: 3.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: -1, z: 0}
+  m_Center: {x: 0, y: -0.6, z: 0.1}
   m_TimeToStationary: 0.5
 --- !u!114 &6461971647669221444
 MonoBehaviour:
@@ -91,6 +70,28 @@ MonoBehaviour:
   m_IgnoreFromBuild: 1
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!64 &7434229824438563803
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3790550404803544342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &3790550405415919828
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -6040,10 +6040,6 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       - Hash: 1203982050
-        Position: {x: -5.859375, y: 0, z: 3.90625}
-        Rotation: {x: 0, y: 0, z: 0, w: 1}
-        Scale: {x: 1, y: 1, z: 1}
-      - Hash: 1203982050
         Position: {x: 8.59375, y: 0, z: 3.515625}
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
