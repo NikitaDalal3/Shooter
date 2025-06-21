@@ -94,7 +94,8 @@ GameObject:
   - component: {fileID: 2675542523261100231}
   - component: {fileID: 4825806884581446666}
   - component: {fileID: 4066290737089030707}
-  - component: {fileID: 8972746690093452541}
+  - component: {fileID: 1835223663004200666}
+  - component: {fileID: 5371358905311122340}
   m_Layer: 8
   m_Name: Gate
   m_TagString: Untagged
@@ -153,8 +154,8 @@ MonoBehaviour:
   m_IgnoreFromBuild: 1
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
---- !u!64 &8972746690093452541
-MeshCollider:
+--- !u!65 &1835223663004200666
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -171,7 +172,27 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.34857273, y: 3.846428, z: 0.5654388}
+  m_Center: {x: -1.2597613, y: 1.8361301, z: 0.021727711}
+--- !u!65 &5371358905311122340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6113877882352214279}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.36739874, y: 3.7612865, z: 0.6088735}
+  m_Center: {x: 1.2507629, y: 1.8371059, z: 0.043464243}

@@ -1242,6 +1242,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backButton: {fileID: 8227189595013129318}
+  panelUIPrefab: {fileID: 2055018639182155067, guid: a6ed57f7517a6a64381706249f13f8d9,
+    type: 3}
+  panelsContainer: {fileID: 7346584915278347249}
   backgroundPanelRectTransform: {fileID: 160823568229223748}
   closeButtonRectTransform: {fileID: 8227189595013129317}
   scrollView: {fileID: 7423551204636039909}
@@ -1302,8 +1305,5 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  panelUIPrefab: {fileID: 2055018639182155067, guid: a6ed57f7517a6a64381706249f13f8d9,
-    type: 3}
-  panelsContainer: {fileID: 7346584915278347249}
   stageStarPrefab: {fileID: 315159776447187958, guid: 4e82445f25872284b8660a79f2fbe8d3,
     type: 3}

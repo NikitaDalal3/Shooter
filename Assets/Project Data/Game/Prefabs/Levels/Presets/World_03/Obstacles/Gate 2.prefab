@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 1353814245007495976}
   - component: {fileID: 7359285397584941367}
   - component: {fileID: 3198918079349363196}
+  - component: {fileID: 2798696788862368182}
   m_Layer: 8
   m_Name: Gate 2
   m_TagString: Untagged
@@ -160,8 +161,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 27.75481, y: 18.21848, z: 8.619825}
-  m_Center: {x: 0.06521416, y: 9.706923, z: 0.17854762}
+  m_Size: {x: 8.4683075, y: 12.811653, z: 8.519334}
+  m_Center: {x: -9.911833, y: 7.0035095, z: 0.12830496}
 --- !u!208 &7359285397584941367
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -197,3 +198,24 @@ MonoBehaviour:
   m_IgnoreFromBuild: 1
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!65 &2798696788862368182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538829239865618683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.8082924, y: 12.800176, z: 8.587818}
+  m_Center: {x: 9.807661, y: 7.1265025, z: 0.29523563}

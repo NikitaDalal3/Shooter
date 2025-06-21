@@ -331,7 +331,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8921751590247947864}
   m_HandleRect: {fileID: 236487834580562350}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -429,45 +429,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backButton: {fileID: 2148901777399671421}
-  weaponHolder: {fileID: 9068757956156514045}
-  weaponPanelPrefab: {fileID: 7037976112761453784, guid: 8b9d661d93197474bb1335ba1b6db541,
-    type: 3}
+  panelUIPrefab: {fileID: 0}
+  panelsContainer: {fileID: 0}
   backgroundPanelRectTransform: {fileID: 4325530422164427213}
   closeButtonRectTransform: {fileID: 2148901777399671420}
-  weaponsScrollView: {fileID: 5047668992396703308}
-  movementAnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1.9380516
-      outSlope: 1.9380516
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.42945325
-      value: 0.8323026
-      inSlope: 0.9855343
-      outSlope: 0.9855343
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.120501034
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: -0.21093209
-      outSlope: -0.21093209
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.17656603
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  scrollView: {fileID: 0}
   panelScaleAnimationCurve:
     serializedVersion: 2
     m_Curve:

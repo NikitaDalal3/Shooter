@@ -142,7 +142,6 @@ MonoBehaviour:
   cardsContainerTransform: {fileID: 4122894017333048877}
   experienceGainedText: {fileID: 8042396278399282971}
   moneyGainedText: {fileID: 3654789550960896344}
-  blackFade: {fileID: 0}
 --- !u!1 &1022785047543499954
 GameObject:
   m_ObjectHideFlags: 0
